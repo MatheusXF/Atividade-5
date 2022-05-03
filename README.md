@@ -8,11 +8,11 @@ Na função main é criada uma thread principal, onde é recebido a grandeza da 
 
 Makefile simples que realiza apenas 3 funções. 
 
-### make que gerará o binário: 
+### make, que gerará o binário: 
 > gcc main.c -o main -lpthread
 
-### make run que roda o binário gerado:
+### make run, que roda o binário gerado:
 > ./main
 
-### clean que limpa esse binário gerado: 
+### clean, que limpa esse binário gerado: 
 > $(RM) main
